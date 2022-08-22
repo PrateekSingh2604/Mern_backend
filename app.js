@@ -5,7 +5,7 @@ const Register = require("./models");
 const path = require("path");
 const port = process.env.PORT  || 3000;
 
-const db = "mongodb+srv://Prateek:Prateek26@cluster0.yoptukr.mongodb.net/myfirstdb?retryWrites=true&w=majority";
+const db = "mongodb+srv://Prateek:Passwordcluster0.yoptukr.mongodb.net/myfirstdb?retryWrites=true&w=majority";
 const mongoose = require("mongoose");
 
 mongoose.connect(db, {
